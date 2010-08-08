@@ -46,6 +46,7 @@ module ActiveLdap
 
   class << self
     include GetTextSupport
+    include ActiveRecord::Persistence
     def const_missing(id)
       case id
       when :ConnectionNotEstablished

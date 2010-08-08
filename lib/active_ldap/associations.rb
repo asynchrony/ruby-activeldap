@@ -2,6 +2,7 @@ require 'active_ldap/association/belongs_to'
 require 'active_ldap/association/belongs_to_many'
 require 'active_ldap/association/has_many'
 require 'active_ldap/association/has_many_wrap'
+require 'active_ldap/association/children'
 
 module ActiveLdap
   # Associations

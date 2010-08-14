@@ -3,3 +3,4 @@ test/config.yaml
 .source_index
 test/.test-result
 .idea
+pkg/

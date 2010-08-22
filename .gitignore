@@ -1,0 +1,6 @@
+test/config.yaml
+.project
+.source_index
+test/.test-result
+.idea
+pkg/

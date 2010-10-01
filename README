@@ -1,3 +1,5 @@
+NOTE: rails3 support is a WIP, don't expect this to work right now.
+
 = ActiveLdap
 
 ruby library for object-oriented LDAP interction

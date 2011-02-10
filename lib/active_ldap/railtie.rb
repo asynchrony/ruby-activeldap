@@ -15,10 +15,9 @@ module Rails
 	      # alert to create one.
 	      initializer "warn when configuration is missing" do
 	        config.after_initialize do
-	        	puts "|#{Rails.root}| - |#{Rails.root.join('config', 'ldap.yml')}|"
 	          unless Rails.root.join("config", "ldap.yml").file?
-				puts("You should run 'script/generator scaffold_active_ldap' to make ldap.yml.")
-              end
+				      puts("You should run 'script/generator scaffold_active_ldap' to make ldap.yml.")
+            end
 	        end
 	      end
 		end

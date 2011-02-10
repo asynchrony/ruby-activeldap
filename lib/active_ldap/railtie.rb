@@ -25,10 +25,6 @@ module Rails
 	end
 end
 
-
-
-
-
 class ::ActionView::Base
   include ActiveLdap::Helper
 end

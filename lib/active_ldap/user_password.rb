@@ -1,6 +1,7 @@
 require 'English'
 require 'digest/md5'
 require 'digest/sha1'
+require 'base64'
 
 module ActiveLdap
   module UserPassword
